@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Clientes</title>
+    <link rel="stylesheet" href="_css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Domine:wght@500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="topo">
+        <!--Area do cabeçalho do site-->
+        <h1>Área de Cadastro de Cliente</h1>
+    </header>
+
+    <main class="container-principal">
+
+        <!--Area principal do cadastro-->
+
+        <section class="container--cadastro">
+            <div class="area--cadastroprincipal">
+                <div class="area1">
+                    <form action="" enctype="multipart/form-data">
+                        <div class="area--cadastro"></div>
+
+                        <fieldset>
+                            <legend>Dados pessoais</legend>
+                            <label>CPF<input type="text" name="" id="cpf" placeholder="CPF Somente números"
+                                    class="cpf"></label>
+
+                            <label>Nome Completo <input type="text" name="" id="nomecompleto"
+                                    placeholder="Nome Completo"></label>
+
+                            <label>Data de Nascimento<input type="date" name="" id="datanascimento"></label>
+
+                            <label class="sexoop">
+                                Selecione uma opção
+                                <input type="radio" name="" id="masc">Masculino
+                                <input type="radio" name="" id="femin">Feminino
+                                <input type="radio" name="" id="pers">Personalizado
+
+                            </label>
+                            <label>Número do Telefone<input type="text" name="" id="numtelefone"
+                                    placeholder="Telefone somente números"></label>
+                            <label>Principal e-mail <input type="email" name="" id="p_email"
+                                    placeholder="seuemail@provedor.com.br"></label>
+
+                            <lavel>Informe uma senha <input type="password" name="" id="psw" placeholder="informe sua senha"></lavel>
+                            <lavel>Confirme a senha <input type="password" name="" id="confpsw" placeholder="confirme a sua senha"></lavel>
+                        </fieldset>
+                </div>
+
+
+                <div class="area2">
+                    <fieldset>
+                        <legend>Endereço</legend>
+                        <label>Cep da Residência<input type="text" name="" id="cep"
+                                placeholder="Somente números"></label>
+                        <label>Endereço<input type="text" name="" id="endereco"></label>
+                        <label>número<input type="text" name="" id="complemento-casa"
+                                placeholder="Informe o número da casa"></label>
+                        <label>Bairro <input type="text" name="" id="bairro"></label>
+                        <label>Ponto de Referência <input type="text" name="" id="p_referencia"></label>
+                    </fieldset>
+                </div>
+
+                <div class="area3">
+                    <fieldset>
+                        <legend class="meioscomunicacao">Termos de uso e meio de comunicação</legend>
+                        <h5>Quer receber informações por estes meios?</h5>
+                        <label>Whatssapp <input type="checkbox" name="" id="whatsapp"></label>
+                        <label>SMS<input type="checkbox" name="" id="sms"></label>
+                        <label> Whatssapp <input type="checkbox" name="" id="e-mail"></label>
+                        <label> Concordo com os <a href="">Termos de uso.</a> <input type="checkbox" name=""
+                                id="termos"></label>
+                    </fieldset>
+                </div>
+
+            </div>
+            <center><input type="button" value="Cadastrar" class="btn"></center>
+
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
