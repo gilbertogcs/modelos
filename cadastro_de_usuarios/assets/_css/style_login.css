@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.login_logo {
+    width: 100vh;
+    max-width: 1140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 30px
+}
+
+.Container {
+    background-color: #ccc;
+    border: 2px solid #af1212;
+    width: 100vh;
+    height: 400px;
+    margin: auto;
+}
+
+.Container h1 {
+    font-size: 50px;
+    font-weight: 400;
+    font-family: 'Stylish', sans-serif;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+label {
+    display: block;
+    padding: 10px;
+    font-family: 'Stylish', sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+}
+
+.nova_senha {
+    font-size: 16px;
+    font-family: 'Stylish', sans-serif;
+}
+
+input {
+    width: 360px;
+    height: 30px;
+    border: 2px solid #999;
+    outline: none;
+    font-size: inherit;
+    border-radius: 10px;
+}
+
+input[type=password] {
+    width: 365px;
+    height: 30px;
+    border: 2px solid #999;
+    outline: none;
+    font-size: inherit;
+    border-radius: 10px;
+}
+
+.frm_login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn_button {
+    width: 300px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    font-size: 23px;
+}
+
+.btn_login {
+    width: 100px;
+    font-size: 26px;
+    font-family: 'Stylish', sans-serif;
+    border: 1px solid #ccc;
+    box-shadow: 5px 10px #7e7c7c;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.btn_button {
+    display: block;
+    margin-left: auto;
+}
+
+.btn_button {
+    font-family: 'Stylish', sans-serif;
+    text-decoration: none;
+}
+
+.btn_button:hover {
+    text-decoration: underline;
+}
+
+.padlock {
+    width: 100px;
+}
+
+.nova {
+    font-size: 20px;
+    width: 200px;
+    text-align: center;
+}
