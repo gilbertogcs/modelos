@@ -14,4 +14,14 @@
 
 ### Um pouco de minhas experiência profissional na área de Tecnologia.
 
+<p>
+Analista Funcional
+Atuando com as Squads de desenvolvimento, com análise, levantamento e
+desenvolvimento documentações com especificações técnicas.</p>
 
+<p>Participação nas reuniões e cerimônias, atuando com metodologias ágeis, com a
+responsabilidade de promover entendimento das necessidades da área de negócios,
+juntos ao time e a gestão, com entendimento e elaboração dos documentos
+funcionais, para implantação de melhoria contínua, para obtenção de performance,
+produtividade e qualidade dos processos.
+</p>
